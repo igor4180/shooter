@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 #define SHOOTER
@@ -12,20 +12,20 @@ void main()
 		key = _getch();
 
 		if (key == 119)
-			cout << "Øàã âïåðåä" << endl;
+			cout << "Ð¨Ð°Ð³ Ð²Ð¿ÐµÑ€ÐµÐ´" << endl;
 		else if (key == 115)
-			cout << "Øàã íàçàä" << endl;
+			cout << "Ð¨Ð°Ð³ Ð½Ð°Ð·Ð°Ð´" << endl;
 		else if (key == 100)
-			cout << "Øàã âïðàâî" << endl;
+			cout << "Ð¨Ð°Ð³ Ð²Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		else if (key == 97)
-			cout << "Íàçàä!" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´!" << endl;
 		else if (key == 32)
-			cout << "Ïðûæîê!" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº!" << endl;
 		else if (key == 13)
-			cout << "Îãîíü!" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ!" << endl;
 
 } while (key != 27);
-cout << "Êîíåö èãðû" << endl;
+cout << "ÐšÐ¾Ð½ÐµÑ† Ð¸Ð³Ñ€Ñ‹" << endl;
 #endif // SHOOTER
 
 
